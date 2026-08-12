@@ -30,21 +30,21 @@ This project documents the installation and configuration of Kali Linux as a vir
 ## Setup Steps
 1. Downloaded the official Kali Linux VirtualBox image from the Kali website.
 
-!(image alt){https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup}
+![image alt]({https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup)
 
 2. Created a new VM in VirtualBox and allocated resources as listed in the configuration table above.
 3. Attached the Kali image and completed the guided installation, setting up disk partitioning and a local user account.
 4. Powered on the VM and confirmed it booted into the Kali desktop environment.
 
-!(image alt){https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20222652.png}
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20222652.png)
 
 5. Set the network adapter to NAT so the VM could reach the internet through the host without being directly reachable from the local network.
 
-!(image alt){https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20223935.png}
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20223935.png)
 
 6. Updated the package lists and upgraded installed packages to bring the system fully up to date.
 
-!(image alt){https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20125857.png}
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20125857.png)
 
 
 ## Verification Commands and Results
