@@ -30,7 +30,7 @@ This project documents the installation and configuration of Kali Linux as a vir
 ## Setup Steps
 1. Downloaded the official Kali Linux VirtualBox image from the Kali website.
 
-![image alt]({https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup)
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/926a50790364e68f1efe549ef112f8b15c7433db/Screenshot%202026-08-12%20123932.png)
 
 2. Created a new VM in VirtualBox and allocated resources as listed in the configuration table above.
 3. Attached the Kali image and completed the guided installation, setting up disk partitioning and a local user account.
