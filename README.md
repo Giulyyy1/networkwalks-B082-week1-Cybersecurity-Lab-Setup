@@ -49,7 +49,7 @@ A NAT Network in VirtualBox creates an isolated internal network for your VM(s) 
 **Step 4: Download & Import Kali Linux VM**
 Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site. this is a faster path since the OS is already configured and just needs to be imported into VirtualBox.
 
-![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20222652.png)
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/1cb8a1c8f4921aca3b681994906c476caccaec09/Screenshot%202026-08-12%20123932.png)
 
 i opened the virtual machine to ensure it was properly installed 
 
