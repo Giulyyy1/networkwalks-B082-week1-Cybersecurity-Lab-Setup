@@ -28,7 +28,7 @@
 
 
 ![Virtualization](https://img.shields.io/badge/Virtualization-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
-# Week 1 Lab – Kali Linux Installation & Setup
+# Week 1 Lab: Kali Linux Installation & Setup
 
 ## Project Overview
 This project documents the installation and configuration of Kali Linux as a virtual machine using Oracle VirtualBox. The goal of this lab was to build a working, isolated environment for security-focused coursework and self-directed practice, including network traffic analysis and social engineering defense research later in the internship.
