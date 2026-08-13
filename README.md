@@ -29,35 +29,41 @@ This project documents the installation and configuration of Kali Linux as a vir
 
 ## Setup Steps
 **Step 1: Download & Install 7-Zip**
+
 7-Zip is a free file archiver used to extract compressed files (like .7z or .zip) that Kali Linux images are often packaged in. It's needed before you can unpack the downloaded VM files.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085044.png)
 
 **Step 2: Download & Install VirtualBox**
 
-![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085141.png)
-
 VirtualBox is a free hypervisor (virtualization software) that lets you run a full operating system, like Kali Linux, inside a virtual machine on your existing PC without affecting your main OS.
 
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085141.png)
+
 **Step 3: Configure Network Settings (NAT Network, 10.0.0.0/24)**
+
 A NAT Network in VirtualBox creates an isolated internal network for your VM(s) that still allows outbound internet access through the host machine. Setting it to the 10.0.0.0/24 range defines the pool of private IP addresses (10.0.0.1 to 10.0.0.254) available to any VM connected to it, keeping the VM separated from your actual home/office network for safer testing.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-12%20223935.png)
 
 **Step 4: Download & Import Kali Linux VM**
-Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site — a faster path since the OS is already configured and just needs to be imported into VirtualBox.
+Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site. this is a faster path since the OS is already configured and just needs to be imported into VirtualBox.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20222652.png)
 
-**Step 5: Setup IP Configuration**
-This is where the Kali VM is connected to the NAT Network created in Step 3 and assigned an IP address within that range (in your case, 10.0.0.2, with 10.0.0.1 as the gateway) so it can communicate on the virtual network and reach the internet.
+i opened the virtual machine to ensure it was properly installed 
 
-![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20223935.png)
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/144129f7ac42d6247af50bcdd07e647871a3b048/Screenshot%202026-08-12%20222652.png)
+
+**Step 5: Setup IP Configuration**
+This is where the Kali VM is connected to the NAT Network created in Step 3 and assigned an IP address within that range, so it can communicate on the virtual network and reach the internet.
+
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/24b56cc8c82af553682b8412630f79541fd96564/Screenshot%202026-08-12%20124525.png)
 
 **Step 6: Take Snapshot of the VM**
 A snapshot saves the exact state of the VM at that point in time. Taking one after a clean, working setup means you can always roll back to this baseline if something breaks in a later lab, without having to reinstall from scratch.
 
-![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20125857.png)
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/144129f7ac42d6247af50bcdd07e647871a3b048/Screenshot%202026-08-12%20235953.png)
 
 
 ## Verification Commands and Results
