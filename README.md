@@ -76,11 +76,11 @@ A NAT Network in VirtualBox creates an isolated internal network for your VM(s) 
 
 **Step 4: Download & Import Kali Linux VM**
 
-Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site. this is a faster path since the OS is already configured and just needs to be imported into VirtualBox.
+Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site. This is a faster path since the OS is already configured and just needs to be imported into VirtualBox.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/4a3feba94d2809d769d4e882b0221e942ab33baf/Screenshot%202026-08-13%20092054.png)
 
-After selcting the kali linux for VirutualBox, i opened the virtual machine(Kali Linux) to ensure it was properly installed 
+After selcting the kali linux for VirutualBox, I opened the virtual machine(Kali Linux) to ensure it was properly installed 
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/144129f7ac42d6247af50bcdd07e647871a3b048/Screenshot%202026-08-12%20222652.png)
 
@@ -136,8 +136,8 @@ My virtual machine didn't have internet access after adding it to the NAT networ
 ```bash
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
-The installation and initial setup went smoothly overall. The main point worth noting was deciding on NAT rather than Bridged networking. 
-**Reason For NAT**:
+Aside from that, the setup went smoothly. The main point worth noting was deciding on NAT rather than Bridged networking. 
+**Reason For NAT:**
 NAT was chosen because it keeps the VM isolated from the rest of the local network while still allowing outbound internet access, which is a safer default for a machine that will later run offensive security tools.
 
 ## What I Learned
