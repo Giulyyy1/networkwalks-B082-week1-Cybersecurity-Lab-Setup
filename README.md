@@ -1,5 +1,31 @@
 # networkwalks-B082-week1-Cybersecurity-Lab-Setup
 **Installation and Setup of Kali Linux on VirtualBox**
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-2026.1-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+
+
+
+
+![VirtualBox](https://img.shields.io/badge/VirtualBox-7.x-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+
+
+
+
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white)
+
+
+
+
+![Networking](https://img.shields.io/badge/Networking-0891B2?style=for-the-badge&logo=cisco&logoColor=white)
+
+
+
+
+![NAT Network](https://img.shields.io/badge/NAT%20Network-10.0.0.0%2F24-0891B2?style=for-the-badge)
+
+
+
+
+![Virtualization](https://img.shields.io/badge/Virtualization-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
 # Week 1 Lab – Kali Linux Installation & Setup
 
 ## Project Overview
