@@ -80,7 +80,7 @@ Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/4a3feba94d2809d769d4e882b0221e942ab33baf/Screenshot%202026-08-13%20092054.png)
 
-After selcting the kali linux for VirutualBox, I opened the virtual machine(Kali Linux) to ensure it was properly installed 
+After selecting the kali Linux VM for VirtualBox and installing it, I opened the virtual machine(Kali Linux) to ensure it was properly installed 
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/144129f7ac42d6247af50bcdd07e647871a3b048/Screenshot%202026-08-12%20222652.png)
 
