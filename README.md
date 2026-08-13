@@ -28,21 +28,34 @@ This project documents the installation and configuration of Kali Linux as a vir
 | VM IP Address  | 10.0.0.2                            |
 
 ## Setup Steps
-1. Downloaded the official Kali Linux VirtualBox image from the Kali website.
+**Step 1: Download & Install 7-Zip**
+7-Zip is a free file archiver used to extract compressed files (like .7z or .zip) that Kali Linux images are often packaged in. It's needed before you can unpack the downloaded VM files.
 
-![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/926a50790364e68f1efe549ef112f8b15c7433db/Screenshot%202026-08-12%20123932.png)
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085044.png)
 
-2. Created a new VM in VirtualBox and allocated resources as listed in the configuration table above.
-3. Attached the Kali image and completed the guided installation, setting up disk partitioning and a local user account.
-4. Powered on the VM and confirmed it booted into the Kali desktop environment.
+**Step 2: Download & Install VirtualBox**
+
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085141.png)
+
+VirtualBox is a free hypervisor (virtualization software) that lets you run a full operating system, like Kali Linux, inside a virtual machine on your existing PC without affecting your main OS.
+
+**Step 3: Configure Network Settings (NAT Network, 10.0.0.0/24)**
+A NAT Network in VirtualBox creates an isolated internal network for your VM(s) that still allows outbound internet access through the host machine. Setting it to the 10.0.0.0/24 range defines the pool of private IP addresses (10.0.0.1 to 10.0.0.254) available to any VM connected to it, keeping the VM separated from your actual home/office network for safer testing.
+
+![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-12%20223935.png)
+
+**Step 4: Download & Import Kali Linux VM**
+Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site — a faster path since the OS is already configured and just needs to be imported into VirtualBox.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20222652.png)
 
-5. Set the network adapter to NAT so the VM could reach the internet through the host without being directly reachable from the local network.
+**Step 5: Setup IP Configuration**
+This is where the Kali VM is connected to the NAT Network created in Step 3 and assigned an IP address within that range (in your case, 10.0.0.2, with 10.0.0.1 as the gateway) so it can communicate on the virtual network and reach the internet.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20223935.png)
 
-6. Updated the package lists and upgraded installed packages to bring the system fully up to date.
+**Step 6: Take Snapshot of the VM**
+A snapshot saves the exact state of the VM at that point in time. Taking one after a clean, working setup means you can always roll back to this baseline if something breaks in a later lab, without having to reinstall from scratch.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/df466b0052b6138dc9384b6fbf87a40ecb8adac5/Screenshot%202026-08-12%20125857.png)
 
