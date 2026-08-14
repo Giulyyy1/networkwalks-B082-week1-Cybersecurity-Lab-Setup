@@ -59,12 +59,15 @@ This project documents the installation and configuration of Kali Linux as a vir
 **Step 1: Download & Install 7-Zip**
 
 7-Zip is a free file archiver used to extract compressed files (like .7z or .zip) that Kali Linux images are often packaged in. It's needed before you can unpack the downloaded VM files.
+https://7-zip.org/download.html  
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085044.png)
 
 **Step 2: Download & Install VirtualBox**
 
 VirtualBox is a free hypervisor (virtualization software) that lets you run a full operating system, like Kali Linux, inside a virtual machine on your existing PC without affecting your main OS.
+ https://virtualbox
+.org/wiki/Downloads
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/42bca5b38bbea1889fddb74049e3272ac6a74e90/Screenshot%202026-08-13%20085141.png)
 
@@ -76,7 +79,8 @@ A NAT Network in VirtualBox creates an isolated internal network for your VM(s) 
 
 **Step 4: Download & Import Kali Linux VM**
 
-Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site. This is a faster path since the OS is already configured and just needs to be imported into VirtualBox.
+Instead of installing Kali from an ISO, this step uses a pre-built VirtualBox VM image from Kali's official site (https
+://kali.org/get-kali). This is a faster path since the OS is already configured and just needs to be imported into VirtualBox.
 
 ![image alt](https://github.com/Giulyyy1/networkwalks-B082-week1-Cybersecurity-Lab-Setup/blob/4a3feba94d2809d769d4e882b0221e942ab33baf/Screenshot%202026-08-13%20092054.png)
 
